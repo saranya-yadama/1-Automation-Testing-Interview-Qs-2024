@@ -1,0 +1,2632 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="4%20TestNG%20interview%20questions%20and%20answers_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="4%20TestNG%20interview%20questions%20and%20answers_files/editdata.mso">
+<!--[if !mso]>
+<style nonce=es9miB1lXZua7-YFmWg5Ww>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>TestNG interview questions and answers</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Yadama, Saranya</o:Author>
+  <o:LastAuthor>Yadama, Saranya</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>8</o:TotalTime>
+  <o:Created>2024-06-22T05:07:00Z</o:Created>
+  <o:LastSaved>2024-06-22T05:15:00Z</o:LastSaved>
+  <o:Pages>8</o:Pages>
+  <o:Words>3040</o:Words>
+  <o:Characters>15548</o:Characters>
+  <o:Lines>129</o:Lines>
+  <o:Paragraphs>37</o:Paragraphs>
+  <o:CharactersWithSpaces>18551</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="4%20TestNG%20interview%20questions%20and%20answers_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="4%20TestNG%20interview%20questions%20and%20answers_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>130</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+@media screen and (-webkit-min-device-pixel-ratio:2){.docs-ml-img{content:url(//ssl.gstatic.com/docs/common/mobileweb_sprite1.png)}.docs-ml-img-container{height:156px;position:absolute;width:36px}.docs-ml-docs-logo-icon{left:0;top:-36px}.docs-ml-sheets-logo-icon{left:0;top:0}.docs-ml-slides-logo-icon{left:0;top:-96px}.docs-ml-arrow-back-icon{left:0;top:-132px}.docs-ml-edit-icon{left:0;top:-72px}}
+@media (min-width:600px){.docs-ml-promotion-app-icon{transform:scale(1.33)}}
+@media (orientation:portrait){.docs-ml-promotion.desktop{padding-top:56px;padding-bottom:80px}}
+@media (orientation:landscape){.docs-ml-promotion.desktop{padding-top:36px;padding-bottom:56px}}
+@media (orientation:landscape){.docs-ml-promotion-heading-desktop{padding-top:0;max-width:none}}
+@media (orientation:landscape){.docs-icon-ml-promotion-icon-container-desktop{display:inline-block;vertical-align:top}.docs-ml-promotion-description-desktop{display:inline-block;vertical-align:top;text-align:left;padding-left:39px;max-width:645px}}
+@media (orientation:landscape){.docs-ml-promotion-action-row-desktop{margin-left:-8px}}
+@import url("https://fonts.googleapis.com/css?family=Google+Sans");
+html
+	{overflow:auto;}
+body
+	{overflow:hidden;}
+.APP-CONTAINER
+	{overflow:auto;}
+.DOC
+	{position:relative;}
+.DOCS-ML-PROMOTION
+	{z-index:1002;}
+.DOCS-ML-HEADER
+	{z-index:1;}
+.DOCS-ML-ICON
+	{display:inline-block;
+	overflow:hidden;
+	position:relative;}
+.docs-ml-img:before{content:url(//ssl.gstatic.com/docs/common/mobileweb_sprite1.png)}
+.DOCS-ML-IMG-CONTAINER
+	{position:absolute;}
+.DOCS-ML-DOCS-LOGO-ICON
+	{left:0in;
+	top:-36px;}
+.DOCS-ML-SHEETS-LOGO-ICON
+	{left:0in;
+	top:0in;}
+.DOCS-ML-SLIDES-LOGO-ICON
+	{left:0in;
+	top:-96px;}
+.DOCS-ML-ARROW-BACK-ICON
+	{left:0in;
+	top:-132px;}
+.DOCS-ML-EDIT-ICON
+	{left:0in;
+	top:-72px;}
+.DOCS-ML-HEADER
+	{box-shadow:0 1px 1px rgba(0,0,0,.1);
+	box-sizing:border-box;
+	position:fixed;
+	left:0in;
+	top:0in;}
+.DOCS-ML-HEADER-ICON
+	{opacity:.6;}
+.DOCS-ML-HEADER-ITEM
+	{display:inline-block;}
+body[dir=rtl] .docs-ml-arrow-back-dir{transform:scaleX(-1)}
+.DOCS-ML-HEADER-DOCUMENT-TITLE
+	{box-sizing:border-box;
+	width:calc(100% - 104px);}
+.DOCS-ML-HEADER-DOCUMENT-TITLE-TEXT
+	{text-overflow:ellipsis;
+	overflow:hidden;}
+.DOCS-ML-HEADER-EDIT-BUTTON
+	{float:right;}
+.DOCS-ML-PROMOTION
+	{bottom:0;
+	box-shadow:0 4px 12px rgba(0,0,0,.4);
+	position:fixed;
+	left:0in;}
+.DOCS-ML-PROMOTION-OFF-SCREEN
+	{transform:translateY(100%);}
+.DOCS-ML-PROMOTION-SHOWN
+	{transform:translateY(0);
+	transition:transform 333ms cubic-bezier(.4,0,.2,1);}
+.DOCS-ML-PROMOTION-DISMISSED
+	{transform:translateY(100%);
+	box-shadow:none;}
+.DOCS-ML-PROMOTION-NO-HORIZONTAL-SCROLL
+	{overflow-x:hidden;}
+.DOCS-ML-PROMOTION-HEADER
+	{display:table;}
+.DOCS-ML-PROMOTION-APP-ICON-CONTAINER
+	{display:table-cell;}
+.DOCS-ML-PROMOTION-TEXT
+	{display:table-cell;}
+.DOCS-ML-PROMOTION-TEXT-HEADING
+	{color:rgba(0,0,0,.87);}
+.DOCS-ML-PROMOTION-TEXT-BODY
+	{color:rgba(0,0,0,.87);}
+.DOCS-ML-PROMOTION-ACTION-ROW
+	{float:right;}
+.DOCS-ML-PROMOTION-ACTION-CONTAINER
+	{display:inline-block;}
+.DOCS-ML-PROMOTION-ACTION-BUTTON
+	{display:inline-block;}
+.docs-ml-promotion-action-button-wrapper:focus{outline-color:#d6d6d6}
+.docs-ml-promotion-action-button.docs-ml-promotion-yes-button{background-color:#4285f4;border-radius:4px;color:#fafafa;border:1px solid transparent}
+.docs-ml-promotion-action-button.docs-ml-promotion-yes-button:active{background-color:#1967d2}
+.docs-ml-promotion-action-button.docs-ml-promotion-no-button{background-color:#fafafa;color:#5f6368;border-radius:4px;border:1px solid #dadce0}
+.docs-ml-promotion-action-button.docs-ml-promotion-no-button:active{background-color:#f5f5f5}
+.docs-ml-promotion.desktop{text-align:center}
+.docs-icon.docs-ml-promotion-desktop-icon{height:40px;width:40px;transform:scale(2.5);transform-origin:top}
+.docs-ml-promotion-action-row-desktop .docs-ml-promotion-action-button-wrapper:focus{outline:none}
+.docs-ml-promotion-action-button.docs-ml-promotion-yes-button.docs-ml-promotion-app-themed{background-image:none;border:1px solid transparent!important;border-radius:4px;box-shadow:none;box-sizing:border-box;font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-weight:500;font-size:14px;height:36px;letter-spacing:.25px;line-height:16px;padding:9px 24px 11px;background:#1a73e8;color:#fff}
+.docs-ml-promotion-action-button.docs-ml-promotion-no-button.docs-ml-promotion-app-themed{background-image:none;border:1px solid transparent!important;border-radius:4px;box-shadow:none;box-sizing:border-box;font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-weight:500;font-size:14px;height:36px;letter-spacing:.25px;line-height:16px;padding:9px 24px 11px;background:#fff;border:1px solid #dadce0!important;color:#1a73e8}
+.docs-ml-promotion-action-button-wrapper:focus .docs-ml-promotion-action-button.docs-ml-promotion-yes-button.docs-ml-promotion-app-themed{background:#1a73e8;color:#fff;background:#5094ed;box-shadow:0 1px 3px 1px rgba(66,133,244,.15)}
+.docs-ml-promotion-action-button-wrapper:focus .docs-ml-promotion-action-button.docs-ml-promotion-no-button.docs-ml-promotion-app-themed{background-image:none;border:1px solid transparent!important;border-radius:4px;box-shadow:none;box-sizing:border-box;font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-weight:500;font-size:14px;height:36px;letter-spacing:.25px;line-height:16px;padding:9px 24px 11px;background:#fff;border:1px solid #dadce0!important;background:#e9f1fe;border:1px solid #c1d8fb!important}
+.DOCSSHARED-NO-DOWNLOAD .DOCSSHARED-NO-SELECT-WHEN-NO-DOWNLOAD
+	{-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-user-drag:none;
+	-webkit-user-select:none;
+	user-select:none;}
+.DOCSSHARED-NO-SELECT
+	{-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-user-drag:none;
+	-webkit-user-select:none;
+	user-select:none;}
+.docsshared-disable-image-copy canvas,.docsshared-disable-image-copy image,.docsshared-disable-image-copy img{pointer-events:none}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"Google Sans";
+	mso-font-alt:Calibri;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.app-container, li.app-container, div.app-container
+	{mso-style-name:app-container;
+	mso-style-unhide:no;
+	margin-top:42.75pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.doc, li.doc, div.doc
+	{mso-style-name:doc;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-icon, li.docs-ml-icon, div.docs-ml-icon
+	{mso-style-name:docs-ml-icon;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-img-container, li.docs-ml-img-container, div.docs-ml-img-container
+	{mso-style-name:docs-ml-img-container;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header, li.docs-ml-header, div.docs-ml-header
+	{mso-style-name:docs-ml-header;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FAFAFA;
+	border:none;
+	mso-border-bottom-alt:solid #CBCBCB .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 3.0pt 0cm;
+	font-size:12.0pt;
+	font-family:"Google Sans";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.docs-ml-header-icon, li.docs-ml-header-icon, div.docs-ml-header-icon
+	{mso-style-name:docs-ml-header-icon;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-icon-container, li.docs-ml-header-icon-container, div.docs-ml-header-icon-container
+	{mso-style-name:docs-ml-header-icon-container;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-item, li.docs-ml-header-item, div.docs-ml-header-item
+	{mso-style-name:docs-ml-header-item;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-drive-link, li.docs-ml-header-drive-link, div.docs-ml-header-drive-link
+	{mso-style-name:docs-ml-header-drive-link;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-document-title, li.docs-ml-header-document-title, div.docs-ml-header-document-title
+	{mso-style-name:docs-ml-header-document-title;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:18.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-document-title-text, li.docs-ml-header-document-title-text, div.docs-ml-header-document-title-text
+	{mso-style-name:docs-ml-header-document-title-text;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:15.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-header-edit-button, li.docs-ml-header-edit-button, div.docs-ml-header-edit-button
+	{mso-style-name:docs-ml-header-edit-button;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion, li.docs-ml-promotion, div.docs-ml-promotion
+	{mso-style-name:docs-ml-promotion;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-header, li.docs-ml-promotion-header, div.docs-ml-promotion-header
+	{mso-style-name:docs-ml-promotion-header;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-app-icon, li.docs-ml-promotion-app-icon, div.docs-ml-promotion-app-icon
+	{mso-style-name:docs-ml-promotion-app-icon;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-text, li.docs-ml-promotion-text, div.docs-ml-promotion-text
+	{mso-style-name:docs-ml-promotion-text;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-text-heading, li.docs-ml-promotion-text-heading, div.docs-ml-promotion-text-heading
+	{mso-style-name:docs-ml-promotion-text-heading;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+p.docs-ml-promotion-text-body, li.docs-ml-promotion-text-body, div.docs-ml-promotion-text-body
+	{mso-style-name:docs-ml-promotion-text-body;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-action-row, li.docs-ml-promotion-action-row, div.docs-ml-promotion-action-row
+	{mso-style-name:docs-ml-promotion-action-row;
+	mso-style-unhide:no;
+	margin-top:4.5pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-action-row-desktop, li.docs-ml-promotion-action-row-desktop, div.docs-ml-promotion-action-row-desktop
+	{mso-style-name:docs-ml-promotion-action-row-desktop;
+	mso-style-unhide:no;
+	margin-top:4.5pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-action-container, li.docs-ml-promotion-action-container, div.docs-ml-promotion-action-container
+	{mso-style-name:docs-ml-promotion-action-container;
+	mso-style-unhide:no;
+	margin-top:4.5pt;
+	margin-right:3.0pt;
+	margin-bottom:4.5pt;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-action-button, li.docs-ml-promotion-action-button, div.docs-ml-promotion-action-button
+	{mso-style-name:docs-ml-promotion-action-button;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-heading-desktop, li.docs-ml-promotion-heading-desktop, div.docs-ml-promotion-heading-desktop
+	{mso-style-name:docs-ml-promotion-heading-desktop;
+	mso-style-unhide:no;
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:13.5pt;
+	font-family:"Google Sans";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#202124;
+	font-weight:bold;}
+p.docs-ml-promotion-text-body-desktop, li.docs-ml-promotion-text-body-desktop, div.docs-ml-promotion-text-body-desktop
+	{mso-style-name:docs-ml-promotion-text-body-desktop;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#5F6368;}
+p.docs-icon-ml-promotion-icon-container-desktop, li.docs-icon-ml-promotion-icon-container-desktop, div.docs-icon-ml-promotion-icon-container-desktop
+	{mso-style-name:docs-icon-ml-promotion-icon-container-desktop;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.doc-content, li.doc-content, div.doc-content
+	{mso-style-name:doc-content;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.doc-content1, li.doc-content1, div.doc-content1
+	{mso-style-name:doc-content1;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.docs-ml-promotion-action-container1, li.docs-ml-promotion-action-container1, div.docs-ml-promotion-action-container1
+	{mso-style-name:docs-ml-promotion-action-container1;
+	mso-style-unhide:no;
+	margin-top:4.5pt;
+	margin-right:6.0pt;
+	margin-bottom:4.5pt;
+	margin-left:6.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Google Sans";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]-->
+<link rel="shortcut icon"
+href="https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico">
+<meta name=viewport
+content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0">
+<meta name=referrer content=strict-origin-when-cross-origin>
+
+<script  data-id="_gd" nonce="quatOfP-5Ukm-gV6WeMMwA">
+window.WIZ_global_data = {"TSDtV":"%.@.[[null,[[45638834,null,false,null,null,null,\"Qvny4b\"],[45621619,null,false,null,null,null,\"PfkIr\"],[45639541,null,false,null,null,null,\"LHinid\"]],\"\"]]]","nQyAE":{}};
+</script>
+
+<script  nonce="quatOfP-5Ukm-gV6WeMMwA">
+_docs_flag_initialData={"docs-daflia":true,"docs-cclt":56,"docs-mwid":false,"docs-smheo":false,"info_params":{"token":"AC4w5VjUvaqBiOCVqwkAgW3sauCn7N3o7A:1718974813652","includes_info_params":true},"docs-ecci":true,"ilcm":{"eui":"ADFN-ctFkMom1z4JjbG1T56pxBUvmgRXH3NN-E06rt4MB03wZ4cinL2NKGFRPMb77MihLcxSDDD9","je":1,"sstu":1718974813653448,"si":"CMiTlZng7IYDFQc9NQcdyLgNFg","gsc":1,"ei":[5700032,5700057,5700103,5700114,5700333,5700611,5703307,5703758,5703839,5703889,5704567,5704572,5704621,5704883,5704905,5705793,5705891,5706210,5706270,5706786,5707047,5707075,5707204,5707361,5707711,5707820,5707943,5708365,5708576,5708886,5709085,5709476,5709673,5710587,5710692,5711372,5711389,5711550,5712189,5712635,5712909,5712913,5713064,5713195,5713554,5714310,5715270,5715338,5715349,5715711,5715791,5716179,5716196,5716239,5716501,5716503,5717567,5718053,5723473,5724199,5724215,5724880,5724896,5725855,5726679,5726695,5727241,5727257,5727701,5729076,5729092,5730209,5730225,5731819,5731835,5734616,5734632,5734824,5734840,5735118,5735134,5735236,5735252,5735654,5735670,5737137,5737153,5737784,5737800,5739762,5739778,5740170,5740186,5740325,5740341,5740798,5740814,5741698,5741714,5742466,5742482,5742636,5742652,5743771,5743787,5743813,5743829,5746122,5746138,5746708,5746724,5747200,5747216,5748153,5748169,5750238,5750254,5752353,5752369,5752445,5752461,5752656,5752674,5752905,5752921,5753665,5753681,5753926,5753942,5754009,5754025,5754273,5754289,5754923,5754939,5756659,5756675,5757326,5757342,5757605,5757621,5757625,5757641,5758658,5758674,5759262,5759278,5760151,5760167,5760271,5760287,5760434,5760450,5760454,5760470,5761255,5761271,5762385,5762401,5763581,5763597,5763601,5763617,5763682,5763698,5763814,5763830,5770369,5770385,5771106,5771200,5771216,5771276,5771292,5773287,5773898,5773914,5777625,5780496,5780512,5781087,5781109,5781179,5781195,5781974,5781990,5786889,5787710,5787726,5787796,5788530,5788550,5788566,5789879,5790433,5791105,5791121,5792065,5792081,5796624,5796640,5796948,5798876,5798892,5798959,5798975,5799529,5799537,5799561,5799569,5799654,5799662,5799665,5799673,5799686,5799694,5799770,5799778,5799885,5799893,5799906,5799914,13702623,48966234,48966242,49372300,49372308,49375194,49375202,49381134,49381142,49398661,49398669,49421364,49421372,49472103,49472111,49491737,49491745,49501776,49501784,49512325,49512333,49518622,49518630,49622703,49622711,49623233,49629214,49629222,49642837,49642845,49643548,49643556,49644055,49644063,49658614,49658622,49661340,49661348,49769417,49769425,49822841,49822849,49823064,49823072,49833562,49833570,49842875,49842883,49894860,49894868,49904439,49904447,49924626,49924634,49926153,49926161,49943099,49943107,49971993,49972001,49974154,49974162,49979538,49979546,50109031,50109039,50179442,50179450,50221700,50221708,50266102,50266110,50273468,50273476,50293588,50293596,50297346,50297354,50335829,50335837,50360100,50360108,50360996,50361004,50389210,50389218,50438805,50439240,50439248,50498847,50498855,50503879,50503887,50513094,50515267,50515275,50520264,50520275,50529223,50529231,50538784,50538792,50549435,50549443,50550111,50550119,50562741,50562752,50578543,50578551,50587122,50587130,50596469,50602181,50602189,70971116,70971124,70973202,70973210,71008213,71008221,71035340,71035348,71035537,71035545,71036553,71036561,71038194,71038202,71061466,71079958,71079966,71085281,71085289,71113319,71113327,71117260,71185270,71185278,71197886,71197894,71200383,71200391,71239126,71239134,71254154,71254162,71274317,71274325,71289086,71289094,71291305,71291313,71316507,71316515,71330553,71330561,71346872,71346880,71357761,71376146,71376154,71386965,71386973,71387387,71387398,71387809,71387817,71401628,71401636,71429327,71429343,71429567,71429575,71451142,71451150,71473321,71473329,71477423,71477439,71478220,71478228,71478549,71478557,71489220,71489228,71505700,71505708,71520490,71520498,71528637,71528645,71530223,71530231,71531317,71531325,71531769,71531777,71536956,71536964,71544794,71544802,71545573,71545581,71554492,71554500,71560029,71560037,71560497,71560505,71561491,71561499,71573830,71573838,71574261,71574277,71582288,71582296,71587960,71587976,71608300,71608308,71612757,71612765,71614435,71614443,71625620,71625628,71628337,71628345,71628367,71628375,71628447,71628455,71628467,71628475,71631395,71631403,71638483,71638491,71640883,71640899,71652641,71656347,71657940,71657948,71659933,71659941,71661120,71661128,71667978,71667986,71671738,71671746,71675235,71679620,71679628,71681950,71684673,71684681,71689900,71689908,71704765,71704773,71710060,71710068,71710693,71710709,71720947,71720955,71722672,71722680,71732198,71732206,71733043,71733051,71748753,71748761,71830962,71830970,71832990,71833032,71833048,71834990,71835006,71835010,71835026,71853970,71868119,71868130,71868381,71868389,71882275,71897947,71897955,71898210,71898313,71898329,71899323,71899334,71924231,71924239,71927986,71927994,71956251,71956259,71959264,71959272,71960420,71960428,71961226,71961234,71966097,71966105,94327571,94327579,94339207,94339215,94353348,94353356,94354565,94354581,94359523,94363045,94363061,94364541,94364549,94367388,94367396,94374191,94374207,94391629,94391637,94397721,94397729,94399344,94399352,94404641,94404657,94409697,94415385,94415393,94419613,94419621,94419822,94419830,94420450,94420458,94422465,94422473,94428446,94428454,94429532,94429540,94434317,94434325,94434932,94434948,94437783,94437799,94444969,94444977,94461479,94478616,94478632,94479286,94479294,94482484,94482495,94491328,94491336,94514661,94514669,94516246,94516262,94518693,94518701,94542860,94542868,94543141,94543149,94554544,94554552,94565073,94568225,94573640,94586059,94586067,94592544,94592552,94605031,94605039,94617258,94617274,94628858,94628866,94629737,94629745,94634500,94634516,94643180,94643188,94661722,94661730,94671071,94671079,94688638,94688646,94692096,94738973,94798691,94798699,94802825,94818995,94819000,94819049,94819054,94819519,94819524,94839908,94839913,94841345,94841361,94929359,94929370,94931511,94931519,95091942,95091950,95113216,95113224,95129666,95182361,95182367,95208833],"crc":0,"cvi":[]},"drive_url":"//drive.google.com/u/0?usp\u003ddocs_web","docs-liap":"/naLogImpressions","docs-sup":"/document/u/0"}; _docs_flag_cek='7mD3OQfX5iM-hrqvq4sEpQ\x3d\x3d'; if (window['DOCS_timing']) {DOCS_timing['ifdld']=new Date().getTime();}
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-IN style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<div style='margin-top:42.75pt'>
+
+<div>
+
+<div>
+
+<div style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p style='margin:0cm;background:white'><span style='font-size:10.0pt;
+color:black;mso-color-alt:windowtext'><script  type="text/javascript" src="/static/document/client/js/1068226436-mobileweb_binary_i18n_mobileweb_binary_chunk.js" nonce="quatOfP-5Ukm-gV6WeMMwA">
+</script><script  nonce="quatOfP-5Ukm-gV6WeMMwA">
+if ((!this['DOCS_initDocsMobileWeb']) ||  false ) {if (window.navigator && window.navigator.sendBeacon) {window.navigator.sendBeacon('\/document\/u\/0\/jserror?jobset\x3dprod\x26error\x3dJS+binary+load+failure&context.functionName=DOCS_initDocsMobileWeb' + '&context.serviceWorkerControlled=' + !!(navigator.serviceWorker && navigator.serviceWorker.controller) + '\x26context.actionName\x3dMobileBasic');}(window.enterCoreJsErrorDialog ? enterCoreJsErrorDialog() : (window.location.href = 'https:\/\/support.google.com\/accounts\/answer\/32050'))}DOCS_initDocsMobileWeb( true ,  true , 'TestNG interview questions and answers', 'intent:\/\/docs.google.com\/document\/d\/1lDETA6-bq_Ka99ZCzFQtxSq4ZO6Dw--b08ihFJjARfM\/edit?pli\x3d1#Intent;scheme\x3dhttps;package\x3dcom.google.android.apps.docs.editors.docs;S.browser_fallback_url\x3dmarket:\/\/details?id\x3dcom.google.android.apps.docs.editors.docs;end', 'googledocs:\/\/docs.google.com\/document\/u\/0\/d\/1lDETA6-bq_Ka99ZCzFQtxSq4ZO6Dw--b08ihFJjARfM\/edit?pli\x3d1',  false );
+</script></span><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>Q1) How will you execute methods or test cases in TestNG in a
+different order/your order?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>We can
+control the order of method execution in TestNG by using various attributes and
+annotations. Here are some examples of how to execute methods or test cases in
+a specific order:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢
+Priority attribute usage<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ Using
+the <span class=SpellE>dependsOnMethods</span> attribute<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ Using
+the <span class=SpellE>dependsOnGroups</span> property<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ Making
+use of an XML configuration file<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q2) How to
+pass the parameter in the test case through the testng.xml file?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can use
+the parameter tag within the test tag to pass parameters in the test case via
+the TestNG XML file. First, <span class=GramE>You</span> need to specify the
+parameter name and value within the tag.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>These
+parameters can be accessed in the test case by using the @Parameters annotation
+in the method signature, as shown below:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@Test @<span
+class=GramE>Parameters(</span>{&quot;username&quot;, &quot;password&quot;})
+public void <span class=SpellE>myTestMethod</span>(String username, String
+password) { //test method code }<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>What is the
+difference between @Factory and @Dataprovider annotations?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+@Factory annotation is used to create multiple instances of the same test
+class, each with a different set of input parameters or configurations. This is
+useful when running the same test with different data sets or configurations or
+when running tests in parallel to save time during testing.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Meanwhile,
+@DataProvider annotation supply test data to a test method. It allows you to
+separate the test data from the test logic, making your test code easier to
+maintain and reuse. @DataProvider can be used to provide test data from a
+variety of sources, including arrays, Excel sheets, databases, and external
+files.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q3) What is
+the use of @Listener annotation in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In TestNG,
+the @Listener annotation is used to define listeners, which are classes that
+listen to events that occur during the execution of a TestNG test. Listeners
+can be used to customize or enhance TestNG's <span class=SpellE>behavior</span>
+by adding extra functionality such as logging, reporting, or customizing the
+test execution.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can
+specify one or more listener classes to be invoked during test execution by
+using the @Listener annotation.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q4) What
+are the attributes supported by @Test annotation in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+following is an exhaustive list of the attributes supported by the @Test
+annotation in TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>alwaysRun</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>dataProvider</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢
+description<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>expectedExceptions</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ groups<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>invocationCount</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>invocationTimeOut</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢
+priority<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>timeOut</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>dependsOnGroups</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>dependsOnMethods</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>â€¢ <span
+class=SpellE>skipFailedInvocations</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q5) What is
+the difference between Suite, Test, and Class?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Suite: The
+highest level of organization in TestNG is a suite. It is a set of one or more
+tests that can be run concurrently. A suite may include several tests,
+configurations, and other elements such as listeners, parameters, and groups.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Test: A
+test is a collection of related test cases that can be executed concurrently. A
+test may contain one or more classes and various parameters and configurations.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Class: A
+class is a Java class that contains one or more test methods. Test methods are
+marked with @Test and run as part of a test. Other methods for setting up or
+tearing down the test environment can also be found in a class.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q6) How
+will you execute methods or test cases in TestNG in a different order/your
+order?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>We can
+control the order of method execution in TestNG by using various attributes and
+annotations. Here are some examples of how to execute methods or test cases in
+a specific order:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Priority
+attribute usage<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Using the <span
+class=SpellE>dependsOnMethods</span> attribute<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Using the <span
+class=SpellE>dependsOnGroups</span> property<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Making use
+of an XML configuration file<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><a
+name="_Hlk169945471"><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>Q7) Why do we create the XML file in TestNG?<o:p></o:p></span></a></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>The XML file is used in TestNG to configure and
+customize the test execution process. It contains <span class=GramE>a number of</span>
+elements and attributes that define the suite, test cases, test methods,
+groups, listeners, and other settings that govern how the tests are run.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Here are some reasons why we should create an
+XML file in TestNG:<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>The XML file allows you to configure the test
+suite, set parameters, and tailor the test execution process to your specific
+needs.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>You can specify the priority of test methods,
+and TestNG will execute them in the order you specify.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>You can group the test methods based on their
+functionalities and execute only the necessary group of methods.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>The test parameters can be specified in the XML
+file, and TestNG will pass those parameters to the test methods at runtime.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945471'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>It allows you to specify which test methods can
+be executed concurrently, and TestNG will execute them concurrently, saving you
+time.<o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:_Hlk169945471'></span>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q8) Write
+the code snipped for passing values 1 and 2 to the parameters val1 and val2
+through the XML file.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Here's an
+example of code that shows how to use the XML file to pass values 1 and 2 to
+the parameters &quot;val1&quot; and &quot;val2&quot;:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>// TestNG
+XML file<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;!DOCTYPE
+suite SYSTEM &quot;https://www.japneet-sachdeva.com/&quot;&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;suite
+name=&quot;<span class=SpellE>MyTestSuite</span>&quot;&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp;
+&lt;</span></span><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>test name=&quot;<span class=SpellE>MyTest</span>&quot;&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;parameter name=&quot;val1&quot;
+value=&quot;1&quot; /&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;parameter name=&quot;val2&quot;
+value=&quot;2&quot; /&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;classes&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; &lt;class
+name=&quot;<span class=SpellE>com.example.MyTestClass</span>&quot; /&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;/classes&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp;
+&lt;</span></span><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>/test&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;/suite&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>// Java
+code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public
+class <span class=SpellE>MyTestClass</span> {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;@Test<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Parameters(</span>{&quot;val1&quot;, &quot;val2&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;public void <span class=SpellE>testMethod</span>(int
+val1,int val2) {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; //
+Test code goes here<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+&quot;&lt;parameter&gt;&quot; tag is used in this example to specify the values
+for the &quot;val1&quot; and &quot;val2&quot; parameters in the TestNG XML
+file. The Java code then declares these parameters with the
+&quot;@Parameter&quot; annotation and passes their values to the &quot;<span
+class=SpellE><span class=GramE>testMethod</span></span><span class=GramE>(</span>)&quot;
+method.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q9) How to
+Integrate TestNG XML with Maven?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Add the
+TestNG dependency to your Maven pom.xml file, create a TestNG XML file and add
+your test classes and configurations, add the maven-surefire-plugin to the
+build section of your pom.xml file, and run your Maven tests using the test
+command to integrate TestNG XML with Maven.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can use
+the below example as a reference to add the maven-surefire-plugin to the build
+section of your Maven pom.xml file and specify the TestNG XML file to use.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;build&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;plugins&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;plugin&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;<span class=SpellE>groupId</span>&gt;<span
+class=SpellE>org.apache.maven.plugins</span>&lt;/<span class=SpellE>groupId</span>&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;<span class=SpellE>artifactId</span>&gt;maven-surefire-plugin&lt;/<span
+class=SpellE>artifactId</span>&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;version&gt;3.0.0-M5&lt;/version&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;configuration&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;<span class=SpellE>suiteXmlFiles</span>&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;<span class=SpellE>suiteXmlFile</span>&gt;<span
+class=SpellE>src</span>/test/resources/testng.xml&lt;/<span class=SpellE>suiteXmlFile</span>&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;/<span class=SpellE>suiteXmlFiles</span>&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;/configuration&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; &lt;/plugin&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;/plugins&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;/build&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q10) What
+are the types of annotations used in TestNG (In the sequence of
+execution/hierarchy)?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Before
+Suite<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Before Test<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Before
+Class<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Before
+Method<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Test 1<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>After
+Method<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Before
+Method<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Test 2<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>After
+Method<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>After Class<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>After Test<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>After Suite<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q11) What
+is @Factory annotation in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In TestNG,
+the @Factory annotation is used to create test instances at runtime. It enables
+you to generate test classes or instances dynamically based on runtime
+conditions or parameters.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can use
+the @Factory annotation to create multiple instances of the same test class
+with different data sets or parameters and run them in parallel to improve test
+execution speed. Here is an example of @factory <span class=GramE>annotations</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@Factory<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp;
+public</span></span><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'> static Object[] <span class=SpellE>createInstances</span>() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; Object[] result = new Object[3];<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; for (int <span class=SpellE>i</span> =
+0; <span class=SpellE>i</span> &lt; <span class=SpellE>result.length</span>; <span
+class=SpellE>i</span>++) {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp;
+result[<span class=SpellE>i</span>] = new <span class=SpellE>MyTest</span>(<span
+class=SpellE>i</span>);<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; }<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; return result;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; }</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q12) What
+is the use of @Listener annotation in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In TestNG,
+the @Listener annotation is used to define listeners, which are classes that
+listen to events that occur during the execution of a TestNG test. Listeners
+can be used to customize or enhance TestNG's <span class=SpellE>behavior</span>
+by adding extra functionality such as logging, reporting, or customizing the
+test execution flow.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can
+specify one or more listener classes to be invoked during test execution by
+using the @Listener annotation. This enables you to extend and customize
+TestNG's <span class=SpellE>behavior</span> to meet your specific testing
+requirements.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q13) What
+is the sequence of execution of the annotations in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+annotations are executed in the following order in TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@BeforeSuite<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@BeforeTest<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@BeforeClass<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@BeforeMethod<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@TestMethod<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@AfterMethod<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@AfterClass<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@AfterTest<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@AfterSuite<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q13) What
+are the attributes supported by @Test annotation in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+following is an exhaustive list of the attributes supported by the @Test
+annotation in TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>alwaysRun</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>dataProvider</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>dataProviderClass</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>description<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>enabled<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>expectedExceptions</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>expectedExceptionsMessageRegExp</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>groups<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>invocationCount</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>invocationTimeOut</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>priority<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>successPercentage</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>testName</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>timeOut</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>dependsOnGroups</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>dependsOnMethods</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>skipFailedInvocations</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>alwaysResolveDependencies</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><a
+name="_Hlk169945368"><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>Q14) What is the use of the </span></a><span class=SpellE><span
+style='mso-bookmark:_Hlk169945368'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>dependsOnMethods</span></span></span><span
+style='mso-bookmark:_Hlk169945368'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'> attribute in TestNG?<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945368'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>The <span class=SpellE>dependsOnMethods</span>
+attribute in TestNG is used to specify a test method's dependency on one or
+more other test methods. This property allows us to ensure that certain test
+methods are run in the correct order.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945368'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>When one test method is dependent on another,
+TestNG will not run the dependent method until <span class=GramE>all of</span>
+its dependencies have passed successfully. The dependent method will be skipped
+if any of the dependencies fail or are skipped.<o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:_Hlk169945368'></span>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q15) What
+is the use of <span class=SpellE>dependsOnGroups</span> attribute in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The <span
+class=SpellE>dependsOnGroups</span> attribute in TestNG is used to specify a
+test method's dependency on one or more groups of test methods. This property
+allows us to ensure that certain groups of test methods are executed in the
+correct order.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>When a test
+method is dependent on a group of test methods, TestNG will not execute the
+dependent method until <span class=GramE>all of</span> the test methods in the
+specified group have successfully passed. If any of the group's test methods
+fail or are skipped, the dependent method will also be skipped.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>Q16) <o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>How do you
+define groups in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Groups are
+a collection of multiple test case methods that have been combined into a
+single unit. We can operate directly on the group by grouping, which will
+reflect on <span class=GramE>all of</span> the test case methods under it.
+Furthermore, in TestNG, we can define a group of groups as a larger unit of
+test methods.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q17) How do
+you exclude a group from the test execution cycle?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+exclusion of a group in TestNG indicates that this group will not run
+throughout the execution and will be ignored by TestNG. Furthermore, the name
+of the group to be excluded is defined in the XML file using the following
+syntax:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;groups&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp;
+&lt;</span></span><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>run&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;exclude name = &quot;TestNG
+testing&quot;&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; &lt;/exclude&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;&lt;/run&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>&lt;/groups&gt;<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q18) How to
+create a Group of Groups in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can
+make a group of groups in TestNG by including one or more groups as
+dependencies on another group. The following are the steps for creating a group
+of groups in TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In your
+test class, use the @Test annotation with the groups attribute to define
+groups. As an example:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>groups = {&quot;group1&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod1() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // test code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>groups = {&quot;group2&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod2() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // test code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>groups = {&quot;group3&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod3() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // test code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q19) How to
+group multiple test methods with Priority?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The
+priority attribute of the @Test annotation in TestNG allows you to group
+multiple test methods with different priorities. The priority attribute
+specifies the order in which TestNG should execute the test methods.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>To divide a
+test method into numerous groups, use the groups attribute to give a
+comma-separated list of group names. As an example:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>priority = 1, groups = {&quot;Maths&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod1() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // test code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>priority = 2, groups = {&quot;Maths&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod2() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // test code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q20)
+Describe any five common TestNG <span class=GramE>assertions</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+class=GramE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>assertEquals</span></span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>(</span></span><span
+class=SpellE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>expectedValue</span></span><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>, <span class=SpellE>actualValue</span>,
+message): It compares two values and determines if they are equal.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+class=GramE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>assertTrue</span></span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>(</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>condition,
+message): This assertion helps whether or not the specified condition is true.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+class=GramE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>assertFalse</span></span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>(</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>condition,
+message): This assertion defines if the specified condition is true or false.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+class=GramE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>assertNull</span></span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>(</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>object,
+message): This assertion determines whether or not the specified object is
+null.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=SpellE><span
+class=GramE><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+color:black'>assertNotNull</span></span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>(</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>object,
+message): This assertion specifies if the specified object is null.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q21) Define
+soft assert in TestNG and describe how they are different from hard <span
+class=GramE>assert</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Soft
+asserts in TestNG mean that the tests will continue to run even if the
+assertion throws an exception in the middle of the execution. Furthermore,
+TestNG does not include Soft asserts by default, so an additional <span
+class=SpellE><span class=GramE>org.testng</span>.asserts.Softassert</span>
+package import is required.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Soft
+assertions differ from hard assertions in that when a hard assertion fails, the
+test terminates immediately, and the remaining test steps are skipped. When a
+soft assertion fails, however, the test continues to run, and any subsequent
+assertions are also run. Only when the test is completed are the test results,
+including soft assertion failures, reported, but the test is not terminated.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q22) What
+is meant by dependency in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Dependencies
+are used in TestNG to specify the order in which test methods should be
+executed. A dependency is a relationship between two or more test methods that
+specifies that one or more tests must be run before another.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Here is an
+example of dependency:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>dependsOnMethods = {&quot;testMethod1&quot;})<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod2<span class=GramE>(){</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;// test method code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@Test<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+testMethod1<span class=GramE>(){</span><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp;// test method code<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q23) What
+is the significance of &quot;timeout&quot; in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>The timeout
+attribute in TestNG is used to specify the maximum amount of time (in
+milliseconds) that a test method should be allowed to run before being
+forcefully terminated. This property is useful when a test method becomes stuck
+in an infinite loop or takes too long to complete, causing the entire test
+suite to stall. It can be declared at<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>suite
+level: To impose a time limit on all methods in the suite.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>method
+level: To impose a time constraint on a specific method.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Syntax:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp;@<span
+class=GramE>Test(</span>timeout = 5000)<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white'><a name="_Hlk169945234"><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q24) What
+is meant by </span></a><span class=SpellE><span style='mso-bookmark:_Hlk169945234'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>invocationCount</span></span></span><span
+style='mso-bookmark:_Hlk169945234'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'> in TestNG?<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945234'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>The <span class=SpellE>invocationCount</span>
+attribute specifies how many times a test method must be executed in a single
+execution. Hence, if I set the <span class=SpellE>invocationCount</span> to 5,
+the test function will be invoked five times each time I run the TestNG test
+case.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945234'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Code for <span class=SpellE>invocationCount</span>:<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945234'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>@Test (<span class=SpellE>invocationCount</span>
+= 10)<o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:_Hlk169945234'></span>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'>Q25) What is meant by parallel test
+execution in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Parallel
+test execution in TestNG means running multiple test cases or test suites on
+multiple threads at the same time. TestNG is designed to support the parallel
+execution of tests, which allows testers to run multiple tests concurrently,
+reducing overall test execution time.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>There are
+two ways to for parallel testing in TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Parallel
+tests at the method level<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Parallel
+tests at the suite level<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin:0cm;background:white'><a name="_Hlk169945293"><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q26) On
+what levels can we apply parallel testing in TestNG?<o:p></o:p></span></a></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945293'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Parallel testing is possible in TestNG at
+multiple levels:<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945293'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Methods: This will run all @Test methods in
+TestNG in parallel.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945293'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Tests: This value will be used to run all test
+cases contained within the &lt;test&gt;tag.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945293'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Classes: <span class=GramE>All of</span> the
+test cases contained within the XML classes will run in parallel.<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='mso-bookmark:_Hlk169945293'><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>Instances: This value will run all test cases
+concurrently within the same instance.<o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:_Hlk169945293'></span>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q27) How to
+achieve TestNG <span class=SpellE>itestlistener</span> implementation? (USED
+for REPORTING in Automation Frameworks)<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Sure, here
+are the step-by-step instructions for implementing TestNG <span class=SpellE>ITestListener</span>:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Make a Java
+class that conforms to the <span class=SpellE>ITestListener</span> interface.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Override
+the necessary methods like <span class=SpellE><span class=GramE>onStart</span></span><span
+class=GramE>(</span>), <span class=SpellE>onTestSuccess</span>(), <span
+class=SpellE>onTestFailure</span>(), <span class=SpellE>onTestSkipped</span>(),
+and <span class=SpellE>onFinish</span>().<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In each of
+these methods, add the custom actions you want to perform, such as logging,
+reporting, or modifying test results.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Make a
+separate Java file for the listener class.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Include the
+tag and specify the full class name of your listener in your TestNG XML
+configuration file to add the listener class.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Alternatively,
+you can use the @Listeners annotation on your test class and specify the full
+class name of your listener.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>When you
+run your test suite, the listener methods will be executed in response to the
+test events, allowing you to take custom actions.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><b><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q28) How
+can we create a data-driven framework using TestNG?</span></b><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>You can use
+TestNG to build a data-driven framework by following these steps:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Make a
+TestNG XML file with the test parameters and data provider. A data provider is
+a method that provides test data to other methods.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Implement
+the data provider method to get test data from a data source like a CSV file,
+Excel sheet, or database.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Add the
+data provider attribute to the @Test annotation of the test method to indicate
+that the data provided by the data provider method will be used by the test
+method.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Use the
+test data to execute the test logic in the test method.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; @Test(dataProvider = &quot;<span
+class=SpellE>testData</span>&quot;)<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; public void <span class=SpellE>testMethod</span>(String
+<span class=SpellE>firstName</span>, String <span class=SpellE>lastName</span>,
+int age) {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; <span class=SpellE>System.out.println</span>(&quot;Name:
+&quot; + <span class=SpellE>firstName</span> + &quot; &quot; + <span
+class=SpellE>lastName</span> + &quot;, Age: &quot; + age);<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; // Test logic using the test data<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; }<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q29) What
+is the use of @Test(threadPoolSize=x)?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>In TestNG,
+the @Test(threadPoolSize=x) annotation is used to specify the number of threads
+to use when running a test method in parallel. The x parameter is an integer
+value that indicates the thread pool size.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>When you
+use this annotation, TestNG will create a pool of threads and distribute test
+method instances among them. Each thread will independently and concurrently
+execute its assigned test method instance with the other threads.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Q30) How to
+implement Data providers in TestNG?<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Follow these
+steps to add data providers to TestNG:<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Create a
+method that returns an array of two-dimensional objects. Each array row
+represents a set of test data.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>DataProvider(</span>name = &quot;<span class=SpellE>testData</span>&quot;)<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public <span
+class=GramE>Object[</span>][] <span class=SpellE>testData</span>() {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; return new Object[][] {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; {&quot;Mehul&quot;, &quot;password1&quot;},<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; {&quot;Gadhiya&quot;, &quot;password2&quot;},<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; <span class=SpellE>Â</span>&nbsp; <span
+class=SpellE>Â</span>&nbsp; {&quot;Devya&quot;, &quot;password3&quot;}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; };<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Add the
+@DataProvider annotation to the method and give the data provides a name.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Add the <span
+class=SpellE>dataProvider</span> attribute to <span class=GramE>the ,</span>@Test
+annotation in the test method and set it to the name of the data provider.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>@<span
+class=GramE>Test(</span>dataProvider = &quot;<span class=SpellE>testData</span>&quot;)<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>public void
+<span class=SpellE><span class=GramE>testLogin</span></span><span class=GramE>(</span>String
+username, String password) {<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>Â&nbsp; <span
+class=SpellE>Â</span></span></span><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif;color:black'>&nbsp; // Test code goes here<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>}<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>To receive
+test data, add parameters to the test method. In the preceding example, we have
+two parameters, username, and password, which will be set to the data
+provider's values.<o:p></o:p></span></p>
+
+<p style='margin:0cm;background:white;orphans:2;widows:2'><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>To perform
+the test and assert the results, use the test data in the test method.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<p class=MsoNormal style='orphans:2;widows:2'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif;color:black'><script  nonce="quatOfP-5Ukm-gV6WeMMwA">
+window.setTimeout(function() { window.scrollTo(0, 1); }, 0)
+</script></span><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+4.
+What will be the output of the following C# code?
+
+static void Main(string[] args)
+{
+    int a, b, c, x;
+    a = 90;
+    b = 15;
+    c = 3;
+    x = a - b / 3 + c * 2 - 1;
+    Console.WriteLine(x);
+    Console.ReadLine();
+}
+
+90-Ans
+
+92
+
+89
+
+88
+
+
+What is the subset of ‘int’ datatype?
+
+
+long, ulong, double
+
+long, ulong, double
+
+long, float, double
+
+long, float, ushort
+
+
+18. Difference between the Equality Operator (==) and Equals() Method in C#?
+Although both are used to compare two objects by value, still they both are used differently. 
+
+For ex.:
+
+int x = 10;
+int y = 10;
+Console.WriteLine( x == y);
+Console.WriteLine(x.Equals(y));
+Output:
+True
+True
+Equality operator (==) is a reference type which means that if equality operator is used, it will return true only if both the references point to the same object.  
+
+Equals() method: Equals method is used to compare the values carried by the objects. int x=10, int y=10. If x==y is compared then, the values carried by x and y are compared which is equal and therefore they return true. 
+
+Equality operator: Compares by reference
+
+Equals(): Compares by value
+
+
+10. What is the difference between an Array and ArrayList in C#?
+An array is a collection of similar variables clubbed together under one common name. While ArrayList is a collection of objects that can be indexed individually. With ArrayList you can access a number of features like dynamic memory allocation, adding, searching, and sorting items in the ArrayList. 
+
+When declaring an array the size of the items is fixed therefore, the memory allocation is fixed. But with ArrayList, it can be increased or decreased dynamically.
+Array belongs to system.array namespace while ArrayList belongs to the system.collection namespace.
+All items in an array are of the same datatype while all the items in an ArrayList can be of the same or different data types.
+While arrays cannot accept null, ArrayList can accept null values.
+
+
+Types of Variables
+-Local variables
+-Instance variables or Non – Static Variables
+
+11. What is inheritance? Does C# support multiple inheritance?
+
+15. What is the difference between late binding and early binding in C#?
+Late binding and early binding are examples of one of the primary concepts of OOPS: Polymorphism. 
+
+When the binding function happens at compile-time, it is called early binding. It investigates and checks the methods and properties of the static objects. With early binding, the number of run-time errors decreases substantially and it executes pretty quickly. 
+
+But when the binding happens at runtime, it is called late binding. Late binding happens when the objects are dynamic (decided based on the data they hold) at run-time. It is slower as it looks through during run-time.
+
+
+Which of the following gives the number of catch blocks that can be defined for a single try block:
+a) One
+b) Two
+c) Many
+d) The try block can have any number of catch blocks. Just the most specific exception should precede the most generic one, i.e. all child catch blocks to be defined first followed by the parent catch block.
+
+Ans-d
+
+using System;
+class MyProgram
+{
+  static void Main(string[] args)
+   {
+     int index = 6;
+     int[] arr = new int[5];
+     try
+     {
+        arr[index] = 100;
+     }    
+     catch(IndexOutOfRangeException e)
+     {
+       Console.WriteLine("Index out of bounds occurred");
+     }
+     Console.WriteLine("Program execution continued after Exception Handling");
+   }
+}
+
+
+a) Runtime error occurs
+b) assigns 100 to arr[6]
+c) Outputs: Index out of bounds occurred
+d) Outputs: Program execution continued after Exception Handling
+e) Outputs: Index out of bounds occurred
+Program execution continued after Exception Handling
+
+Ans-e
+
+
+
+Explain the difference between error and exception in C# ?
+Exception handling is a mechanism to detect and handle error at run time where as Errors are occured at development/compile time.
+
+26) What is Garbage Collection?
+Garbage Collection is a process of releasing memory automatically occupied by objects which are no longer accessible.
+
+20) What is the difference between dispose() and finalize() methods in C#?
+The dispose() method is explicitly called by user to free unmanaged resources such as files, database connections etc whereas finalize() method is implicitly called by garbage collector to free unmanaged resources like files, database connections etc.
+
+19) What is the difference between abstract class and interface in C#?
+Abstract class can have abstract and concrete methods whereas interface has only abstract methods.
+
+14) What is the lock statement in C#?
+Lock statement is used to ensure that one thread doesn?t enter a critical section of code while another thread is in the critical section. If another thread attempts to enter a locked code it will wait, block, until the object is released.
+
+4) What is the difference between public, static and void?
+You can access public declared variables anywhere in the application.
+
+Static declared variables are globally accessible without creating an instance of the class.
+
+Void is a type modifier that specifies that the method doesn't return any value.
+
+
+
+String=Nitin
+Write a program to check if the string is pallandrom or not.
+
+Q #22) What is a Jagged Array?
+
+Answer: A Jagged array is an array whose elements are arrays. It is also called as the array of arrays. It can be either single or multiple dimensions.
+
+int[] jaggedArray = new int[4][];
+
+Q #28) What are the basic String Operations? Explain.
+
+Answer: Some of the basic string operations are:
+
+Concatenate: Two strings can be concatenated either by using a System.String.Concat or by using + operator.
+Modify: Replace(a,b) is used to replace a string with another string. Trim() is used to trim the string at the end or at the beginning.
+Compare: System.StringComparison() is used to compare two strings, either a case-sensitive comparison or not case sensitive. Mainly takes two parameters, original string, and string to be compared with.
+Search: StartWith, EndsWith methods are used to search a particular string.
